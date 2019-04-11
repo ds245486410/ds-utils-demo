@@ -7,6 +7,8 @@
     <groupId>com.hellen.utils</groupId>
     <artifactId>utils-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>fastjson-demo</module>
+    </modules>
 </project>
