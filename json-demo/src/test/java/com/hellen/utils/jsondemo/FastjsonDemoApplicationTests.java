@@ -1,4 +1,4 @@
-package com.hellen.utils.fastjsondemo;
+package com.hellen.utils.jsondemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.hellen.utils.fastjsondemo;
+package com.hellen.utils.jsondemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
