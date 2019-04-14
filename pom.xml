@@ -11,5 +11,6 @@
     <modules>
         <module>json-demo</module>
         <module>java-utils-demo</module>
+        <module>concurrent-demo</module>
     </modules>
 </project>
