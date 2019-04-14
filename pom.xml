@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>fastjson-demo</module>
+        <module>json-demo</module>
+        <module>java-utils-demo</module>
     </modules>
 </project>
