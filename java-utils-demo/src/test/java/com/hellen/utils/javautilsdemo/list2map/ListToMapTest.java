@@ -23,6 +23,12 @@ public class ListToMapTest extends JavaUtilsDemoApplicationTests {
         Map<String, Integer> collect = studentList.stream().collect(Collectors.toMap(Student::getName, Student::getAge));
         System.out.println(collect);
     }
+    @Test
+    public void listToMapMyself(){
+        List<Student> studentList = assemble();
+        Map<String, Student> collect = studentList.stream().collect(Collectors.toMap(Student::getName, Function.identity()));
+        System.out.println(collect);
+    }
 
     /**
      * 组装list
