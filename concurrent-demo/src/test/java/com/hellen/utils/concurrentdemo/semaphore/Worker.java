@@ -21,7 +21,6 @@ public class Worker extends Thread {
             e.printStackTrace();
         }
     }
-
     public static void main(String[] args) {
         Semaphore semaphore = new Semaphore(5);
         for (int i = 0; i < 30; i++) {

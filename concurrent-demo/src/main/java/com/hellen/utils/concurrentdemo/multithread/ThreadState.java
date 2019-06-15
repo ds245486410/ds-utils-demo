@@ -11,4 +11,13 @@ public class ThreadState implements Runnable {
             e.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+        int i = Integer.SIZE - 3;
+        System.out.println(i);
+        System.out.println( -1 << i);
+        System.out.println( 0 << i);
+        System.out.println( 1 << i);
+        System.out.println( 2 << i);
+    }
 }

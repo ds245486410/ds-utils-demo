@@ -4,11 +4,9 @@ import java.util.concurrent.CyclicBarrier;
 
 public class DataInput implements Runnable {
     private CyclicBarrier barrier;
-
     public DataInput(CyclicBarrier barrier) {
         this.barrier = barrier;
     }
-
     @Override
     public void run() {
         try {
@@ -20,7 +18,6 @@ public class DataInput implements Runnable {
         }
         System.out.println("所有数据录入完成");
     }
-
     public static void main(String[] args) {
         int n = 20 ;
         CyclicBarrier cyclicBarrier = new CyclicBarrier(n);
